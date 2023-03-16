@@ -1,25 +1,43 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react'
+import "./App.css"
+// import ParentComp from './PureComponents/ParentComp'
+import Ref from './Refs/Ref'
+// import Test from './Test'
+// import ClassCounterOne from './useEffect/ClassCounterOne'
+// import HookCounter from './useEffect/HookCounter'
+// import ClassComponentProps from './props/ClassComponentProps'
+// import FuncCompDestructProps from './props/FuncCompDestructProps'
+// import FunctionalComponentProps from './props/FunctionalComponentProps'
+// import ClassCompDestructProps from './props/ClassCompDestructProps'
+// import State from './state/State'
+// import SetState from './state/SetState'
+// import Counter from './state/Counter'
+// import PrevState from './state/PrevState'
+// import EventBinding from './state/EventBinding'
+// import UseState from './useState/UseState'
+// import ControlledComponents from './ControlledComponents/ControlledComponents'
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          hello world
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+   <>
+   {/* <Test/> */}
+   {/* <FunctionalComponentProps name="Priyanshu" age="21" title="functional component props"/>
+   <ClassComponentProps name="Priyanshu" age="21" title="class component props"/>
+   <FuncCompDestructProps name="Priyanshu" age="21" title="class component destructuring props"/> */}
+   {/* <ClassCompDestructProps name="Priyanshu" age="21" title="class component destructuring props"/> */}
+   {/* <State/> */}
+   {/* <SetState/> */}
+   {/* <Counter/> */}
+   {/* <PrevState/> */}
+   {/* <EventBinding/> */}
+   {/* <UseState/> */}
+   {/* <ControlledComponents/> */}
+   {/* <ClassCounterOne/> */}
+   {/* <HookCounter/> */}
+   {/* <ParentComp/> */}
+   <Ref/>
+   </>
+  )
 }
 
-export default App;
+export default App
